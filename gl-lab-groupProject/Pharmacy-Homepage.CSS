@@ -1,0 +1,336 @@
+body {
+    height: auto;
+    margin:0%;
+    width: 100%;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+header h1 {
+    background-color: rgb(81, 81, 81);
+    margin: 0%;
+    padding: 20px;
+    padding-right: 10%;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+nav {
+    position: fixed;
+    top: 100px;
+    /* adjust as needed to position the menu below the header */
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+#navigate {
+    z-index: 2;
+}
+
+.menu {
+    margin: 0%;
+    background-color:rgb(145, 145, 145);
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    list-style: none;
+    padding: 0%;
+    padding-left: 3%;
+    border: 1px solid steelblue;
+}
+
+.menu li {
+    padding: 10px;
+    position: relative;
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: auto;
+    max-width: 150px;
+    background-color: whitesmoke;
+    padding: 0%;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.menu li ul li:hover {
+    background-color: gainsboro;
+}
+
+.menu li ul li a {
+    color: steelblue;
+    font-size: 16px;
+    display: block;
+    padding: 0px;
+}
+
+#aniimage {
+    width: 100%;
+    height: 70vh;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    align-items: center;
+    object-fit: fill;
+    margin-left: -5px;
+    margin-right: -2px;
+}
+
+.image-container {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    border: 4px solid steelblue;
+    margin-top: 0px;
+    padding-bottom: 10%;
+    
+}
+
+.image-container #aniimage{
+    position:absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+.image-container img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.image-container img:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.image-container img:nth-child(3) {
+
+    animation-delay: 10s;
+}
+
+.image-container img:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.image-container img:nth-child(5) {
+    animation-delay: 20s;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+ 
+h5{
+    color: rgb(255, 255, 255);
+     text-align: center;
+     background-color: rgb(0, 0, 2);
+     height: 40px;
+     text-align: center;
+     padding-top: 20px;
+     font-size: 15px;
+     margin-top: 0px;
+     position: absolute;
+     width: 100%;
+    
+   
+} 
+
+.internal-content{
+    width: 100%;
+    overflow-y:scroll ;
+    overflow-x:scroll ;
+    height: 1500px;
+    
+   
+}
+
+#AddButton {
+    width: 90%;
+    height: 25px;
+    color: orange;
+    text-size-adjust: 50px;
+    margin-top: -30px;
+    margin-left: 13px;
+    padding-left: 30px;
+
+}
+
+img {
+    width: 235px;
+    height: 120px;
+    position: static;
+    margin-left: 5px;
+    margin-top: -30px;
+
+
+}
+
+#productname {
+    padding-left: 8px;
+
+}
+
+#pricetag {
+    margin-left: 2px;
+    margin-top: -5px;
+    color: blue;
+   
+}
+
+.addbutton {
+    font-size: larger;
+    font-weight: bold;
+    border-style: ridge;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: rgb(215, 214, 244);
+}
+
+#column {
+     float: left; 
+
+
+}
+
+.imgbox {
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 8px;
+
+}
+
+.imgbox1 {
+    margin-left: 320px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+   position: absolute;
+}
+.imgbox2{
+    margin-left: 60px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-left: 600px;
+    margin-top: 8px;
+    position: absolute;
+}
+.imgbox3{
+    margin-left: 60px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+    margin-left: 900px;
+    position: absolute;
+}
+.addbutton:active{
+    background-color: rgb(250, 234, 230) ;
+    border-color: rgb(0, 255, 76);
+
+}
+#column:hover{
+  
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+
+}
+#heading2{
+    margin-top: 300px;
+}
+.imgbox4{
+    margin-left: 15px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+    position: absolute;
+}
+.imgbox5{
+    margin-left: 320px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+    position: absolute;
+
+}
+.imgbox6{
+    margin-left:  600px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+    position: absolute;
+
+}
+.imgbox7{
+    margin-left: 900px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+    position: absolute;
+
+}
+.sampleselection{
+    position: relative;
+}

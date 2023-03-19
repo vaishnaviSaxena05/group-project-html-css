@@ -1,0 +1,134 @@
+
+body{
+    background-color: rgb(255,255, 255);
+    margin: 0%;
+    
+    padding-left: 300px;
+   
+   
+    /* padding top: 50px;
+     */
+}
+
+.test{
+    background-color: white;
+    width: 1000px;
+  
+    border-radius: 2px;
+     margin-left: -150px; 
+    margin-right: -120px;
+    margin-top: 60px;
+    margin-bottom: -120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    /* padding-left: 100px; */
+}
+.lab{
+    background-color:white;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll; 
+    
+  
+    /* padding-left: 100px;
+     */
+}
+.TestForm{
+    
+    overflow: hidden;
+    margin-left: 40px;
+    display: block;
+  
+  
+
+}
+form{
+    width:500px ;
+}
+
+input{
+    padding: 5px;
+        border: none;
+        border-bottom: 1px solid black;
+        font-size: large;
+}
+
+/* #image{
+   float: right;
+   
+   padding-left: 400px;
+   width: 500px;
+   height: 450px;
+    position: absolute; 
+    margin-left:150px ;
+   
+
+} 
+.image{
+    width: 1000px;
+    height: 500px;
+    display: inline-block;
+} */
+
+/* button{
+    background-color: darkorchid;
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+   
+   
+}
+.submit{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: darkorchid;
+    padding: 2px;
+    margin-bottom: -1200;
+
+} */
+
+button{
+  margin-top: 150px;
+  margin-left: 150px;
+  background-color: darkorchid;
+  padding: 7px 19px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  border: 0px;
+  margin-right: 20px;
+}
+.submit{
+   
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: darkorchid;
+    padding: 5px 16px;
+    margin-bottom: -1200;
+}
+
+img{
+    height: 833px;
+    width:450px ;
+    float: inherit;
+    
+    
+}
+
+.box{
+    float: right;
+    width: 500px
+
+
+}
+#diatrictblock{
+    padding: 14px 40px;
+}
+.select2{
+    padding: 14px 40px;
+}

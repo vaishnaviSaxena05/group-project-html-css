@@ -1,0 +1,143 @@
+#AddButton {
+    width: 90%;
+    height: 25px;
+    color: orange;
+    text-size-adjust: 50px;
+    margin-top: -30px;
+    margin-left: 13px;
+    padding-left: 30px;
+
+}
+
+img {
+    width: 235px;
+    height: 120px;
+    position: static;
+    margin-left: 5px;
+    margin-top: -30px;
+
+
+}
+
+#productname {
+    padding-left: 8px;
+
+}
+
+#pricetag {
+    margin-left: 2px;
+    margin-top: -2px;
+    color: blue;
+}
+
+.addbutton {
+    font-size: larger;
+    font-weight: bold;
+    border-style: ridge;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: rgb(215, 214, 244);
+}
+
+#column {
+     float: left; 
+
+
+}
+
+.imgbox {
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 8px;
+
+}
+
+.imgbox1 {
+    margin-left: 320px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+   
+}
+.imgbox2{
+    margin-left: 60px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+    
+}
+.imgbox3{
+    margin-left: 60px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+
+}
+.addbutton:active{
+    background-color: rgb(250, 234, 230) ;
+    border-color: rgb(0, 255, 76);
+
+}
+#column:hover{
+  
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+
+}
+body{
+    position:absolute;
+    width: 100%;
+   height: 120%;
+
+}
+
+#heading2{
+    margin-top: 300px;
+}
+.imgbox4{
+    margin-left: 15px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+}
+.imgbox5{
+    margin-left: 60px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+
+}
+.imgbox6{
+    margin-left: 60px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+
+}
+.imgbox7{
+    margin-left: 60px;
+    background-color: rgb(228, 224, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 250px;
+    margin-top: 8px;
+
+}

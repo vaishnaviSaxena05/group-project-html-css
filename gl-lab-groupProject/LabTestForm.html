@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabTestForm</title>
+
+    <link rel="stylesheet" href="LabStyling.css">
+    <!-- <link rel="stylesheet" href="DummyStyling.css"> -->
+</head>
+
+<body>
+
+
+    <div class="test">
+       
+        <div class="lab">
+            <div class="box">
+                 <img src="lab-test.jpg" alt="" id="image2">
+            </div>
+          
+            <div class="TestForm">
+
+
+                <form action="">
+
+                    <h2>1.Your Contact Details:</h2>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="number" placeholder="Patient Id if exists">
+                    <BR></BR>
+                    <input type="number" placeholder="Contact Number" required>
+                    <input type="email" placeholder="Email_id">
+
+                    <h2>2.Address:</h2>
+                    <input type="number" placeholder="House-Number" required>
+                    <input type="text" placeholder="Street" required>
+                    <BR></BR>
+                    <input type="text" placeholder="Area" required>
+                    <BR></BR>
+                    <h4>District</h4>
+                    <select name="" id="diatrictblock">
+                       
+                        <option value="choose">----District----</option>
+                        <option value="1">Medak</option>
+                        <option value="2">Khamam</option>
+                        <option value="3">Hyderabad</option>
+                    </select>
+
+                    <!-- <h3>3.Chosse the test type:</h3>
+               <select name="test" id="test" required multiple>
+                   <option value="select">---Select---</option>
+                   <option value="1">CBC</option>
+                   <option value="2">Complete Urine</option>
+                   <option value="3">Lipid Profile</option>
+                   <option value="4">Thyroid Stimulating Harmone(TSH)</option>
+                   <option value="5">Glucose Test</option>
+               </select> -->
+
+                    <h3>3.Choose the test type:</h3>
+                    <p>Tick the test you need:</p>
+                    <input type="checkbox" id="1" name="CBC" value="" required>
+                    <LAbel for="id">CBC</LAbel>
+                    <br>
+                    <input type="checkbox" id="2" name="Complete Urine" value="" required>
+                    <LAbel for="id">Complete Urine</LAbel>
+                    <br>
+                    <input type="checkbox" id="3" name="Lipid Profile" value="" required>
+                    <LAbel for="id">Lipid Profile</LAbel>
+                    <br>
+                    <input type="checkbox" id="4" name="TSH" value="" required>
+                    <LAbel for="id">Thyroid Stimulating Harmone(TSH)</LAbel>
+                    <br>
+                    <input type="checkbox" id="5" name="Glucose" value="" required>
+                    <LAbel for="id">Glucose</LAbel>
+
+
+                    <h3>4.Do you want a hard copy of the report also?</h3>
+                    <select name="" id="6" class="select2" required>
+                        <option value="select">---Select---</option>
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                    </select>
+
+                    <h3>4.Select Your Comfortable Date and Time:</h3>
+                    <input type="date" placeholder="Date" required id="8">
+                    <input type="time" placeholder="Time" required id="9">
+
+                    <br>
+                    <br>
+                </form>
+
+            </div>
+            
+        </div>
+       
+    </div>
+   
+        <button>Reset</button>
+    
+        <a class="submit" href="submit.html">Submit</a>
+  
+</body>
+
+
+</html>
